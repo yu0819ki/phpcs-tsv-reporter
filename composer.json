@@ -1,0 +1,19 @@
+{
+    "name": "yu0819ki/phpcs-tsv-reporter",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yu0819ki",
+            "email": "yu0819ki@gmail.com"
+        }
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "^3.3"
+    },
+    "scripts": {
+        "l": "php -l ./src",
+        "cs": "./vendor/bin/phpcs --standard=PSR12 ./src",
+        "cbf": "./vendor/bin/phpcbf --standard=PSR12 ./src"
+    }
+}
